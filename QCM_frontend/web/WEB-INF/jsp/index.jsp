@@ -3,19 +3,19 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="vendor/template/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="vendor/template/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Now Ui Kit by Creative Tim</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"  />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/template/css/bootstrap.min.css"  />
+    <link rel="stylesheet" href="vendor/template/css/now-ui-kit.css?v=1.1.0"  />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/template/css/demo.css"  />
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -32,7 +32,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="vendor/template/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
@@ -77,20 +77,20 @@
     <!-- End Navbar -->
     <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/header.jpg');">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('vendor/template/img/header.jpg');">
             </div>
             <div class="container">
                 <div class="content-center brand">
-                    <img class="n-logo" src="./assets/img/now-logo.png" alt="">
+                    <img class="n-logo" src="vendor/template/img/now-logo.png" alt="">
                     <h1 class="h1-seo">Now UI Kit.</h1>
                     <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
                 </div>
                 <h6 class="category category-absolute">Designed by
                     <a href="http://invisionapp.com/" target="_blank">
-                        <img src="./assets/img/invision-white-slim.png" class="invision-logo" />
+                        <img src="vendor/template/img/invision-white-slim.png" class="invision-logo" />
                     </a>. Coded by
                     <a href="https://www.creative-tim.com" target="_blank">
-                        <img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo" />
+                        <img src="vendor/template/img/creative-tim-white-slim2.png" class="creative-tim-logo" />
                     </a>.</h6>
             </div>
         </div>
@@ -100,13 +100,13 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="hero-images-container">
-                                <img src="assets/img/hero-image-1.png" alt="">
+                                <img src="vendor/template/img/hero-image-1.png" alt="">
                             </div>
                             <div class="hero-images-container-1">
-                                <img src="assets/img/hero-image-2.png" alt="">
+                                <img src="vendor/template/img/hero-image-2.png" alt="">
                             </div>
                             <div class="hero-images-container-2">
-                                <img src="assets/img/hero-image-3.png" alt="">
+                                <img src="vendor/template/img/hero-image-3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -284,7 +284,7 @@
                                         <span class="navbar-toggler-bar bar2"></span>
                                         <span class="navbar-toggler-bar bar3"></span>
                                     </button>
-                                    <div class="collapse navbar-collapse" id="example-navbar" data-nav-image="assets/img/blurred-image-1.jpg">
+                                    <div class="collapse navbar-collapse" id="example-navbar" data-nav-image="vendor/template/img/blurred-image-1.jpg">
                                         <ul class="navbar-nav">
                                             <li class="nav-item active">
                                                 <a class="nav-link" href="#">
@@ -355,7 +355,7 @@
                     <h4>Navigation</h4>
                 </div>
                 <div id="navbar">
-                    <div class="navigation-example" style="background-image:url('assets/img/bg7.jpg')">
+                    <div class="navigation-example" style="background-image:url('vendor/template/img/bg7.jpg')">
                         <!-- Navbar Primary  -->
                         <nav class="navbar navbar-expand-lg bg-primary">
                             <div class="container">
@@ -922,19 +922,19 @@
                         <div class="row">
                             <div class="col-sm-2">
                                 <p class="category">Image</p>
-                                <img src="assets/img/avatar.jpg" alt="Rounded Image" class="rounded">
+                                <img src="vendor/template/img/avatar.jpg" alt="Rounded Image" class="rounded">
                             </div>
                             <div class="col-sm-2">
                                 <p class="category">Circle Image</p>
-                                <img src="assets/img/avatar.jpg" alt="Circle Image" class="rounded-circle">
+                                <img src="vendor/template/img/avatar.jpg" alt="Circle Image" class="rounded-circle">
                             </div>
                             <div class="col-sm-2">
                                 <p class="category">Raised</p>
-                                <img src="assets/img/avatar.jpg" alt="Raised Image" class="rounded img-raised">
+                                <img src="vendor/template/img/avatar.jpg" alt="Raised Image" class="rounded img-raised">
                             </div>
                             <div class="col-sm-2">
                                 <p class="category">Circle Raised</p>
-                                <img src="assets/img/avatar.jpg" alt="Thumbnail Image" class="rounded-circle img-raised">
+                                <img src="vendor/template/img/avatar.jpg" alt="Thumbnail Image" class="rounded-circle img-raised">
                             </div>
                         </div>
                         <div class="row">
@@ -978,7 +978,7 @@
                                 <div class="col-md-6">
                                     <div class="datepicker-container">
                                         <div class="form-group">
-                                            <input type="text" class="form-control date-picker" value="10/05/2016" / data-datepicker-color="primary">
+                                            <input type="text" class="form-control date-picker" value="10/05/2016"  data-datepicker-color="primary">
                                         </div>
                                     </div>
                                 </div>
@@ -1183,9 +1183,9 @@
                     <br>
                     <br>
                     <div class="row text-center mt-5">
-                        <div class="col-md-8 ml-auto mr-auto">
+                        <div    class="col-md-8 ml-auto mr-auto">
                             <h2>Want more?</h2>
-                            <h5 class="description">We've just launched
+                            <h5 class="description">We've just launched</h5>
                                 <a href="http://demos.creative-tim.com/now-ui-kit-pro/presentation.html" target="_blank">Now UI Kit PRO</a>. It has a huge number of components, sections and example pages. Start Your Development With A Badass Bootstrap 4 UI Kit.</h4>
                         </div>
                         <div class="col-md-12">
@@ -1299,17 +1299,17 @@
     </div>
 </body>
 <!--   Core JS Files   -->
-<script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="vendor/template/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="vendor/template/js/core/popper.min.js" type="text/javascript"></script>
+<script src="vendor/template/js/core/bootstrap.min.js" type="text/javascript"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="./assets/js/plugins/bootstrap-switch.js"></script>
+<script src="vendor/template/js/plugins/bootstrap-switch.js"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<script src="vendor/template/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-<script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="vendor/template/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script src="vendor/template/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         // the body of this function is in assets/js/now-ui-kit.js
