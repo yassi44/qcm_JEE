@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="QCM_frontend" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="qcm_backend" />
+        </element>
       </element>
     </root>
   </artifact>
